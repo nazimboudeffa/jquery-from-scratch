@@ -1,3 +1,6 @@
+name: descriptive-workflow-name
+on: push
+
 action "mscoutermarsh/ascii-art-action" {
   uses = "mscoutermarsh/ascii-art-action@1.0.0"
   args = "Let's Code Together"
