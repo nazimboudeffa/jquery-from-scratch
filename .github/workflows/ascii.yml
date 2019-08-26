@@ -1,5 +1,5 @@
-name: descriptive-workflow-name
-on: push
+name: Fire Ascii Art
+on: [push]
 
 action "mscoutermarsh/ascii-art-action" {
   uses = "mscoutermarsh/ascii-art-action@1.0.0"
